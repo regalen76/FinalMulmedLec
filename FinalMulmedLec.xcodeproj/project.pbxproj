@@ -14,6 +14,16 @@
 		CB8E17E92982C1C60077199F /* FinalMulmedLec.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB8E17E72982C1C60077199F /* FinalMulmedLec.xcdatamodeld */; };
 		CB8E17EB2982C1C70077199F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8E17EA2982C1C70077199F /* Assets.xcassets */; };
 		CB8E17EE2982C1C70077199F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8E17EC2982C1C70077199F /* LaunchScreen.storyboard */; };
+		CB8E17F72982C2690077199F /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E17F62982C2690077199F /* QuestionModel.swift */; };
+		CB8E17F92982C28C0077199F /* Allscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E17F82982C28C0077199F /* Allscore.swift */; };
+		CB8E17FC2982C2E10077199F /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E17FB2982C2E10077199F /* QuestionViewModel.swift */; };
+		CB8E17FE2982C2EA0077199F /* AllScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E17FD2982C2EA0077199F /* AllScoreViewModel.swift */; };
+		CB8E18012982C3340077199F /* BeforePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E18002982C3340077199F /* BeforePlayViewController.swift */; };
+		CB8E18032982C3720077199F /* FirstPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E18022982C3720077199F /* FirstPlayViewController.swift */; };
+		CB8E18052982C3970077199F /* PreparingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E18042982C3970077199F /* PreparingViewController.swift */; };
+		CB8E18072982C3B30077199F /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E18062982C3B30077199F /* GameOverViewController.swift */; };
+		CB8E18092982C3C90077199F /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E18082982C3C90077199F /* ScoreCell.swift */; };
+		CB8E180B2982C3DC0077199F /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8E180A2982C3DC0077199F /* HighScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		CB8E17EA2982C1C70077199F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8E17ED2982C1C70077199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB8E17EF2982C1C70077199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8E17F62982C2690077199F /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		CB8E17F82982C28C0077199F /* Allscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allscore.swift; sourceTree = "<group>"; };
+		CB8E17FB2982C2E10077199F /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		CB8E17FD2982C2EA0077199F /* AllScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllScoreViewModel.swift; sourceTree = "<group>"; };
+		CB8E18002982C3340077199F /* BeforePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforePlayViewController.swift; sourceTree = "<group>"; };
+		CB8E18022982C3720077199F /* FirstPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPlayViewController.swift; sourceTree = "<group>"; };
+		CB8E18042982C3970077199F /* PreparingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparingViewController.swift; sourceTree = "<group>"; };
+		CB8E18062982C3B30077199F /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		CB8E18082982C3C90077199F /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		CB8E180A2982C3DC0077199F /* HighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +78,11 @@
 		CB8E17DD2982C1C60077199F /* FinalMulmedLec */ = {
 			isa = PBXGroup;
 			children = (
+				CB8E17FF2982C31C0077199F /* ViewController */,
+				CB8E17FA2982C2A40077199F /* ViewModel */,
+				CB8E17F52982C2510077199F /* Model */,
 				CB8E17DE2982C1C60077199F /* AppDelegate.swift */,
 				CB8E17E02982C1C60077199F /* SceneDelegate.swift */,
-				CB8E17E22982C1C60077199F /* ViewController.swift */,
 				CB8E17E42982C1C60077199F /* Main.storyboard */,
 				CB8E17EA2982C1C70077199F /* Assets.xcassets */,
 				CB8E17EC2982C1C70077199F /* LaunchScreen.storyboard */,
@@ -68,6 +90,38 @@
 				CB8E17E72982C1C60077199F /* FinalMulmedLec.xcdatamodeld */,
 			);
 			path = FinalMulmedLec;
+			sourceTree = "<group>";
+		};
+		CB8E17F52982C2510077199F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E17F62982C2690077199F /* QuestionModel.swift */,
+				CB8E17F82982C28C0077199F /* Allscore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB8E17FA2982C2A40077199F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E17FB2982C2E10077199F /* QuestionViewModel.swift */,
+				CB8E17FD2982C2EA0077199F /* AllScoreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB8E17FF2982C31C0077199F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E17E22982C1C60077199F /* ViewController.swift */,
+				CB8E18002982C3340077199F /* BeforePlayViewController.swift */,
+				CB8E18022982C3720077199F /* FirstPlayViewController.swift */,
+				CB8E18042982C3970077199F /* PreparingViewController.swift */,
+				CB8E18062982C3B30077199F /* GameOverViewController.swift */,
+				CB8E18082982C3C90077199F /* ScoreCell.swift */,
+				CB8E180A2982C3DC0077199F /* HighScoreViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +196,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8E17E32982C1C60077199F /* ViewController.swift in Sources */,
+				CB8E180B2982C3DC0077199F /* HighScoreViewController.swift in Sources */,
+				CB8E17FC2982C2E10077199F /* QuestionViewModel.swift in Sources */,
 				CB8E17E92982C1C60077199F /* FinalMulmedLec.xcdatamodeld in Sources */,
+				CB8E18012982C3340077199F /* BeforePlayViewController.swift in Sources */,
+				CB8E17FE2982C2EA0077199F /* AllScoreViewModel.swift in Sources */,
+				CB8E17F92982C28C0077199F /* Allscore.swift in Sources */,
+				CB8E18092982C3C90077199F /* ScoreCell.swift in Sources */,
 				CB8E17DF2982C1C60077199F /* AppDelegate.swift in Sources */,
 				CB8E17E12982C1C60077199F /* SceneDelegate.swift in Sources */,
+				CB8E18072982C3B30077199F /* GameOverViewController.swift in Sources */,
+				CB8E18052982C3970077199F /* PreparingViewController.swift in Sources */,
+				CB8E17F72982C2690077199F /* QuestionModel.swift in Sources */,
+				CB8E18032982C3720077199F /* FirstPlayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
